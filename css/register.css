@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assests/BG1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 10cm;
+    text-align: center;
+    border:2px solid blue;
+    padding:1.5cm;
+    border-radius:20px;
+    background-color:rgba(0,0,255,0.1);
+    color:white;
+}
+
+#player-info, #game-board, #controls {
+    margin-top: 20px;
+}
+
+#players {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+a{
+    color:red;
+}
+
+@media (max-width:500px){
+    #container{
+        width:40vw;
+        height:fit-content;
+        font-size: 0.8rem;
+        padding:10vw;
+    }
+
+}

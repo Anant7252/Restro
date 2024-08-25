@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.home-1 {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#orderForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 70px;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* background-color: rgb(248, 212, 165); */
+    background-color: rgb(180, 223, 240);
+}
+
+#orderForm input {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    caret-color: red;
+}
+
+textarea {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    #orderForm {
+        width: 40vw;
+        height: fit-content;
+        
+    }
+}

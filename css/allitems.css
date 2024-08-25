@@ -1,0 +1,88 @@
+
+.navbar{
+    background-color: rgb(71, 68, 68);
+}
+.items {
+    margin-top: -20px;
+    width: 100%;
+    min-height: 100vh;
+    background: url(/assests/allbg.png) no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    padding: 50px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.itemlist {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    margin-top: 40px;
+    padding: 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+.edit-button, .save-button {
+    border: none;
+    background: rgb(12, 12, 34);
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: white;
+}
+
+.edit-button:hover, .save-button:hover {
+    background: rgb(34, 34, 90);
+    transform: scale(1.1);
+}
+
+.save-button {
+    display: none;
+}
+
+.edit-name, .edit-cost {
+    width: 100px;
+    padding: 5px;
+    display: none;
+}
+input{
+    caret-color: blue;
+    border-radius: 20px;
+    padding:5px 10px;
+}
+
+.add{
+    border-radius: 20px;
+    padding: 20x;
+}
+.side{
+    margin:10px;
+}
+.user-info{
+    padding-right: 20px;
+}
